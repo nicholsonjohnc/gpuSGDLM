@@ -1,3 +1,4 @@
+import(Rcpp)
 useDynLib(rSGDLM, .registration = TRUE)
 exportPattern("^[[:alpha:]]+")
 importFrom(Rcpp, evalCpp)
